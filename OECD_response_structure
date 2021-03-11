@@ -1,0 +1,170 @@
+{"header":{
+	"id":"659c4221-7eb6-4684-a685-5031128e35ca",
+	"test":false,
+	"prepared":"2021-03-10T16:53:22.1364205Z",
+	"sender":{
+		"id":"OECD",
+		"name":"Organisation for Economic Co-operation and Development"
+	},
+	"links":[{
+		"href":"https://stats.oecd.org:443/SDMX-JSON/data/NAAG_2015_NOV15/FRA+DEU+ITA+GBR+USA+CAN+JPN.DBTEQS12/all?startTime=2004&endTime=2013",
+		"rel":"request"
+	}]
+},
+"dataSets":[{
+	"action":"Information",
+	"series":{
+		"0:0":{
+			"attributes":[0],
+			"observations":{
+				"0":[1.921032,null],
+				"1":[1.871118,null],
+				"2":[1.784956,null],
+				"3":[1.746327,null],
+				"4":[2.314833,null],
+				"5":[1.851414,null],
+				"6":[1.676244,null],
+				"7":[1.793359,null],
+				"8":[1.705244,null],
+				"9":[1.621218,null]
+			}
+		},
+		"1:0":{
+			"attributes":[0],
+			"observations":{
+				"0":[3.110589,null],
+				"1":[2.989893,null],
+				"2":[2.872212,null],
+				"3":[3.476598,null],
+				"4":[4.731761,null],
+				"5":[4.10837,null],
+				"6":[4.299293,null],
+				"7":[5.349359,null],
+				"8":[4.910079,null],
+				"9":[4.538214,null]
+			}
+		},
+		"2:0":{
+			"attributes":[0],...
+		}
+	}
+}],
+"structure":{
+	"links":[{
+		"href":"https://stats.oecd.org/SDMX-JSON/dataflow/NAAG_2015_NOV15/all","rel":"dataflow"
+	}],
+	"name":"National Accounts at a Glance - 2015",
+	"description":"National Accounts at a Glance - 2015",
+	"dimensions":{
+		"series":[{
+			"keyPosition":0,
+			"id":"LOCATION",
+			"name":"Country",
+			"values":[{
+				"id":"CAN",
+				"name":"Canada"
+			},{
+				"id":"FRA",
+				"name":"France"
+			},{
+				"id":"DEU",
+				"name":"Germany"
+			},{
+				"id":"ITA",
+				"name":"Italy"
+			},{
+				"id":"JPN",
+				"name":"Japan"
+			},{
+				"id":"GBR",
+				"name":"United Kingdom"
+			},{
+				"id":"USA",
+				"name":"United States"
+			}],
+			"role":"REF_AREA"
+		},{
+			"keyPosition":1,
+			"id":"INDICATOR",
+			"name":"Indicator",
+			"values":[{
+				"id":"DBTEQS12",
+				"name":"Financial corporations debt, debt to equity, number of times"
+			}]
+		}],
+		"observation":[{
+			"id":"TIME_PERIOD",
+			"name":"Time",
+			"values":[{
+				"id":"2004",
+				"name":"2004"
+			},{
+				"id":"2005",
+				"name":"2005"
+			},{
+				"id":"2006",
+				"name":"2006"
+			},{
+				"id":"2007",
+				"name":"2007"
+			},{
+				"id":"2008",
+				"name":"2008"
+			},{
+				"id":"2009",
+				"name":"2009"
+			},{
+				"id":"2010",
+				"name":"2010"
+			},{
+				"id":"2011",
+				"name":"2011"
+			},{
+				"id":"2012",
+				"name":"2012"
+			},{
+				"id":"2013",
+				"name":"2013"
+			}],
+			"role":"TIME_PERIOD"
+		}]
+	},
+	"attributes":{
+		"dataSet":[],
+		"series":[{
+			"id":"TIME_FORMAT",
+			"name":"Time Format",
+			"values":[{
+				"id":"P1Y",
+				"name":"Annual"
+			}]
+		}],
+		"observation":[{
+			"id":"OBS_STATUS",
+			"name":"Observation Status",
+			"values":[]
+		}]
+	},
+	"annotations":[{
+		"title":"Copyright OECD - All rights reserved",
+		"uri":"",
+		"text":""
+	},{
+		"title":"Terms and Conditions",
+		"uri":"http://www.oecd.org/termsandconditions/",
+		"text":""
+	},{
+		"title":"Privacy Policy",
+		"uri":"http://www.oecd.org/privacy/",
+		"text":""
+	},{
+		"title":"MyOECD",
+		"uri":"https://www.oecd.org/login",
+		"text":""
+	},{
+		"title":"Contact Us",
+		"uri":"http://www.oecd.org/contact/",
+		"text":""
+	}]
+} //end structure
+}
